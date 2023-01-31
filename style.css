@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    color: white;
+    font-size: 25px;
+    background-color: pink;
+  }
+
+  .title {
+    color: #2799FF;
+  }
+  .category {
+    color: #2799FF;
+  }
+  
+  .wrap {
+    margin: 10% auto;
+    padding: 0;
+    display: block;
+    text-align: center;  
+    position: relative;
+  }
+  .label {
+    color: #004D92;
+  }
+  #displayWord {
+    letter-spacing: 10px;
+    color: green;
+    font-weight: bold;
+    
+  }
+  #guessedWords {
+    letter-spacing: 5px;
+    color: green;
+  }
+  .lives {
+    color: blue;
+  }
+  #newGame {
+    color: #2799FF;
+  }
